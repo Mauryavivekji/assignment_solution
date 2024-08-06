@@ -1,4 +1,6 @@
-// Q 1.You are building an e-commerce website Write a function that calculates the total price of a customer's order You're given an array of items, each with a price property Use the forEach method to iterate through the array and sum up the prices to get the total order amount
+// Q 1.You are building an e-commerce website Write a function that calculates the total price of a customer's order
+//You're given an array of items, each with a price property Use the forEach method to iterate through the array and 
+ //sum up the prices to get the total order amount
 
 
 const customerList=[
@@ -20,7 +22,8 @@ output:78000
 
 
 
-// Q 2. In this challenge, your task is to create a function that generates a random number and prints it to the console every 2 seconds The program should keep printing new random numbers indefinitely, with a 2-second delay between each number.
+// Q 2. In this challenge, your task is to create a function that generates a random number and prints it to the console every 
+//2 seconds The program should keep printing new random numbers indefinitely, with a 2-second delay between each number.
 
 let GenerateRandom=()=>{
          let randomNum=Math.floor(Math.random()*100);
@@ -42,7 +45,8 @@ output:
 
 
 
-// Q 3You are given an array of expense objects representing monthly expenses. Each object has properties, amount and category. Use the map method to create a new array that includes the calculated tax for each expense. Assume a tax rate of 10%.
+// Q 3You are given an array of expense objects representing monthly expenses. Each object has properties, amount and category.
+//Use the map method to create a new array that includes the calculated tax for each expense. Assume a tax rate of 10%.
 
 let expenses=[
          {amount:100,category:"utility"},
@@ -73,7 +77,8 @@ output:[
 
 
 
-// Q 4 Using the same array of expense objects, use the filter method to create a new array that includes only the expenses related to the category "Groceries.
+// Q 4 Using the same array of expense objects, use the filter method to create a new array that includes only the expenses related to
+//the category "Groceries.
 
 let expenses=[
                   {amount:100,category:"utility"},
@@ -110,7 +115,10 @@ let expenses=[
 output:250
 
 
-// Q 6 You have a list of expenses, each with an amount and a category. Now, create a function named categorizeExpense that, based on the expense amount, returns either "High Expense" if it's more than 100, or "Low Expense" otherwise. Afterward, use this function along with the map method to generate a new array called categorizedExpenses, where each element represents the category for the corresponding expense in the original list. Finally, print out the categorizedExpenses array.
+// Q 6 You have a list of expenses, each with an amount and a category. Now, create a function named categorizeExpense that, 
+// based on the expense amount, returns either "High Expense" if it's more than 100, or "Low Expense" otherwise. Afterward,
+//  use this function along with the map method to generate a new array called categorizedExpenses, where each element represents the
+//  category for the corresponding expense in the original list. Finally, print out the categorizedExpenses array.
 
 let expenses=[
                                     {amount:100,category:"utility"},
@@ -136,7 +144,8 @@ output:[ 'low expense', 'high expense', 'low expense' ]
 
 // Q 7 Consider an array of numbers named originalNumbers with the values
 //  [2, 5, 8, 10, 3]. 
-// Your task is to use the forEach method to iterate through each element in the array. During the iteration, double the value of each number. After completing the iteration, display the modified array.
+// Your task is to use the forEach method to iterate through each element in the array.
+// During the iteration, double the value of each number. After completing the iteration, display the modified array.
 
 let originalNumbers =[2, 5, 8, 10, 3];
 originalNumbers.forEach((num,i,arr)=>{arr[i]=num*2
